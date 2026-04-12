@@ -8,6 +8,11 @@ com.student.management<br>
 ├── dto<br>
 └── config<br>
 
-Browser → Controller Layer ↔ Service Layer ↔ Repository (DAO) Layer ↔ Database
-                     ↓
-                  View (Thymeleaf Template)
++----------+        +-------------+        +-------------+        +------------------+        +-----------+
+| Browser  | -----> | Controller  | <----> |  Service    | <----> | Repository (DAO) | <----> | Database  |<br>
++----------+        +-------------+        +-------------+        +------------------+        +-----------+
+                         |<br>
+                         v<br>
+                  +----------------------+
+                  |   View (Thymeleaf)   |
+                  +----------------------+
