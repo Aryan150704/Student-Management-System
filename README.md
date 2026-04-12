@@ -7,3 +7,7 @@ com.student.management<br>
 ├── model<br>
 ├── dto<br>
 └── config<br>
+
+Browser → Controller Layer ↔ Service Layer ↔ Repository (DAO) Layer ↔ Database
+                     ↓
+                  View (Thymeleaf Template)
